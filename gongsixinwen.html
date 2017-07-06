@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>烙印直播-公司新闻</title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+				font-family: "微软雅黑";
+			}
+			.triangle_s {
+				width: 0;
+				height: 0;
+				border-left: 17px solid transparent;
+				border-right: 17px solid transparent;
+				border-bottom: 24px solid #333;
+				position: absolute;
+				left: 50%;
+				margin: -24px 0 0 -17px;
+			}
+			.Index_First li {
+				font-weight: bold;
+			}
+			.Index_zhi{
+				font-weight: bold;
+				text-align: center;
+			}
+			.Index_Second{
+				width: 49%;
+				display: inline-block;
+			}
+			a{
+				text-decoration: none !important;
+				color: #000000 !important;
+			}
+			
+			@media screen and (max-width:700px) {
+			  	.Index_SecondOne {
+			    	width: 100% !important;
+				}
+			}
+			@media screen and (max-width:420px) {
+			  	.Index_zhi {
+			    	font-size: 12px;
+				}
+			}
+			.Index_Third li a{
+				color: #FFFFFF !important;
+				
+			}
+			ul li{
+				list-style: none;
+			}
+			.Index_inline{
+				display: inline-block;
+				padding-left: 10%;
+				line-height: 30px;
+			}
+			.New_First{
+				display: inline-block;
+				float: right;
+			}
+			.New_First span{
+				font-weight: 700;
+			}
+			.New_FirstOne{
+				color: #9e151b;
+			}
+			.New_FirstTwo{
+				color: #4D4D4D;
+			}
+			.New_LieOne{
+				color: #2aacc8;
+			}
+			.New_LieTwo:hover{
+				color: #2aacc8;
+			}
+			.New_Ye{
+				display: inline-block;
+				vertical-align: middle;
+				text-align: center;
+			}
+			.New_YeSecond{
+				display: inline-block;
+				vertical-align: middle;
+				float: right;
+			}
+			@media screen and (max-width:750px) {
+			  	.News {
+			    	width: 100%;
+				}
+				.New_Img{
+					width: 100%;
+					overflow: hidden !important;
+
+				}
+				.New_Img img{
+					margin: 0 auto !important;
+				}
+
+				.New_YeSecond{
+					margin: 0 auto;
+
+				}
+				.New_Ju{
+					width: 20%;
+				}
+			}
+			.pagination{
+				margin: 0px !important;
+			}
+			.New_Pc{
+				width: 80%;
+				margin: 0 auto;
+
+			}
+			.New_Phone{
+				width: 80%;
+				margin: 0 auto;
+				display: none;
+			}
+			.New_Phone div{
+				text-align: center;
+			}
+			@media screen and (max-width:750px) {
+			  	.New_Pc{
+			  		display: none !important;
+			  	}
+			  	.New_Phone{
+			  		display: block !important;
+			  	}
+			  	.New_Height{
+					height: 70px;
+				}
+			}
+			
+		</style>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<div>
+			<!--导航栏-->
+			<div style="width: 80%;margin: 0 auto;">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					     </button>
+							<a href="#"><img src="images/logo.png"></a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav Index_First">
+								<li style="padding-left: 10px;">
+									<a href="#">主页</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">教育直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">法律咨询 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">营销直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">财经直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">影视制作 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">社会福利 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">公司新闻</a>
+										</li>
+										<li>
+											<a href="#">公司简介</a>
+										</li>
+										<li>
+											<a href="#">联系方式</a>
+										</li>
+										<li>
+											<a href="#">人才招聘</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">帮助下载 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</div>
+			<!--大图-->
+			<div>
+				<img src="images/newsbc.png" style="width: 100%;" />
+			</div>
+			<!--动态内容-->
+			<div>
+				<!--最新动态-->
+				<div style="width: 80%;margin: 30px auto;overflow: hidden;">
+					<div style="display: inline-block;">
+						<img src="images/new1.png" class="New_Ju"/>
+						<span style="font-weight: 700;">最新动态</span>
+					</div>
+					<div class="New_First">
+						<a href="#">
+							<span class="New_FirstOne">全部</span>
+						</a>
+						<a href="#">
+							<span class="New_FirstTwo">公司快讯</span>
+						</a>
+						<a href="#">
+							<span class="New_FirstTwo">行业动态</span>
+						</a>
+					</div>
+				</div>
+				
+				<!--新闻-->
+				<!--pc-->
+				<div class="New_Pc">
+					<div class="media">
+					    <div class="New_Img">
+					    	<a class="pull-left" href="#">
+						        <img class="media-object" src="images/new2.jpg"
+						             alt="烙印直播">
+						    </a>
+					    </div>
+					    <div class="media-body News">
+					        <h4 class="media-heading" style="font-size: 16px;color: #333;">展视互动斩获“2016年度校园好方案”优胜大奖！</h4>
+					        <span style="color: #b3b3b3;">发布时间:2016-12-20</span>
+					        <p style="color: #808080;">
+					        	近日，中国首个推动教育信息化的专业展会2016年中国国际智慧教育展览会在北京国家会议中心拉开帷幕，吸引了来自海内外各界专家学者、教学设备供应商的参与。	同期举行的SmartShow2016校园好方案作为中国教育信息化领域最具权威公正的年度评选，历时半年的征集、报名、网络票选，由顶级行业专家、知名院校校长全方位点评，多位来自教育、IT、互联网领域的权威专家联合审核。	最终展视互动以科技新、落地广、实用便捷等多个显著优势从158家企业方案中脱颖而出，斩获2
+					        </p>
+					    </div>
+					</div>
+				</div>
+				<!--移动-->
+				<div class="New_Phone">
+					<div style="text-align: center;">
+						<img src="images/new2.jpg" />
+					</div>
+					<div class="media-body News">
+				        <h4 class="media-heading" style="font-size: 16px;color: #333;">展视互动斩获“2016年度校园好方案”优胜大奖！</h4>
+				        <span style="color: #b3b3b3;">发布时间:2016-12-20</span>
+				        <p style="color: #808080;">
+				        	近日，中国首个推动教育信息化的专业展会2016年中国国际智慧教育展览会在北京国家会议中心拉开帷幕，吸引了来自海内外各界专家学者、教学设备供应商的参与。	同期举行的SmartShow2016校园好方案作为中国教育信息化领域最具权威公正的年度评选，历时半年的征集、报名、网络票选，由顶级行业专家、知名院校校长全方位点评，多位来自教育、IT、互联网领域的权威专家联合审核。	最终展视互动以科技新、落地广、实用便捷等多个显著优势从158家企业方案中脱颖而出，斩获2
+				        </p>
+				    </div>
+				</div>
+				
+				<!--列表组-->
+				<div style="width: 80%;margin: 0 auto;margin-top: 30px;">
+					<ul class="list-group">
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					    <li class="list-group-item New_Height">
+					    	<a href="#">
+					    		<span class="New_LieOne">[公司快讯]</span>
+					    	</a>
+					    	<a href="#">
+					    		<span class="New_LieTwo">喜讯！展视互动荣获“2016年度中国互联网教育卓越贡献奖”</span>
+					    	</a>
+					    	<span class="badge">
+					    		2016-12-20
+					    	</span>
+					    </li>
+					</ul>
+				</div>
+				<!--页标签-->
+				<div style="width: 80%;margin: 20px auto;margin-top: 30px;overflow: hidden;">
+					<span class="New_Ye">第1-10&nbsp;总共787</span>
+					<ul class="pagination New_YeSecond">
+					    <li><a href="#">&laquo;</a></li>
+					    <li class="active"><a href="#">1</a></li>
+					    <li class="disabled"><a href="#">2</a></li>
+					    <li><a href="#">3</a></li>
+					    <li><a href="#">4</a></li>
+					    <li><a href="#">5</a></li>
+					    <li><a href="#">&raquo;</a></li>
+					</ul>
+				</div>
+			</div>
+			<!--底部-->
+			<div style="width: 100%;background-color: #404040;">
+				<div style="width: 80%;margin: 0 auto;overflow: hidden;padding: 30px 0px;">
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									展示互动
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									公司新闻
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									关于我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									荣誉资质
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									联系我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									人才招聘
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									直播秀
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									产品服务
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									教育培训
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									企业直播
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									金融直播室
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									财经培训
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									营销直播
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									联系我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									业务咨询
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									0536-7553333
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									客服热线
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									0536-7553333
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline" style="vertical-align: top;">
+						<img src="images/er.png" />
+					</div>
+				</div>
+				
+			</div>
+			<div style="width: 100%;height: 60px;background: #333333;">
+				<div style="width: 80%;margin: 0 auto;">
+					<div class="triangle_s"></div>
+					<div style="line-height: 60px;font-size: 12px;color: #fff;text-align: center;">
+						&copy;copyright 2008-2017laoyin 版权所有
+					</div>
+				</div>
+			</div>
+			
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="js/jquery-1.11.1.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>

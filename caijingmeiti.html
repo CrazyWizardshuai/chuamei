@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>烙印直播-财经媒体</title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			
+			.Index_First li {
+				font-weight: bold;
+			}
+			a{
+				text-decoration: none !important;
+				color: #000000 !important;
+			}
+			
+			.Index_Third li a{
+				color: #FFFFFF !important;
+				
+			}
+			ul li{
+				list-style: none;
+			}
+			.Index_inline{
+				display: inline-block;
+				padding-left: 10%;
+				line-height: 30px;
+			}
+			.caijing_First{
+				background: url(images/ju.png) no-repeat;
+				display: inline-block;
+				height: 146px;
+				width: 49%;
+				vertical-align: top;
+				line-height: 46px;
+			}
+			.caijing_Second{
+				background: url(images/ju1.png) no-repeat;
+				display: inline-block;
+				height: 146px;
+				width: 55%;
+				vertical-align: top;
+				line-height: 46px;
+			}
+			.caijing_cai{
+				width: 100%;
+				text-align: center;
+				margin-top: 30px;
+			}
+			.caijing_cai p{
+				font-size: 30px;
+				font-weight: 800;
+	
+			}
+			.caijing_Content{
+				width: 100%;
+				text-align: center;
+				margin:100px 0px;
+			}
+			.os{
+				display: none;
+			}
+			@media screen and (max-width:990px) {
+			  	.ws{
+			    	display: none;
+				}
+				.os{
+					display: block;
+				}
+				.caijing_cai p {
+			    	font-size: 16px;
+				}
+			}
+			.os_one{
+				text-align: center;
+				width: 80%;
+				margin: 30px auto;
+			}
+			.triangle_s {
+				width: 0;
+				height: 0;
+				border-left: 17px solid transparent;
+				border-right: 17px solid transparent;
+				border-bottom: 24px solid #333;
+				position: absolute;
+				left: 50%;
+				margin: -24px 0 0 -17px;
+			}
+		</style>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<div>
+			<!--导航栏-->
+			<div style="width: 80%;margin: 0 auto;">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					     </button>
+							<a href="#"><img src="images/logo.png"></a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav Index_First">
+								<li style="padding-left: 10px;">
+									<a href="#">主页</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">教育直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">法律咨询 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">营销直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">财经直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">影视制作 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">社会福利 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">帮助下载 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</div>
+			
+			<!--大图-->
+			<div>
+				<a href="#">
+					<img src="images/meiti.png" style="width: 100%;" />
+				</a>
+			</div>
+			
+			<!--内容-->
+			<!--pc-->
+			<div class="ws">
+				
+				<!--一-->
+				<div class="caijing_Content">
+					<div style="width: 49%;display: inline-block;">
+						<img src="images/finance1.png" style="display: inline-block;"/>
+					</div>
+					<div class="caijing_First">
+						<span style="font-size: 22px;font-weight: 600;">高品质的产品体验，提高客户满意度</span><br />
+						<span>全球领先的技术架构，稳定可靠，画质清晰流畅，轻松支持数万人
+同时在线，不卡顿，不掉线，客户使用体验更佳</span>
+					</div>
+				</div>
+				<!--二-->
+				<div class="caijing_Content">
+					<div class="caijing_Second">
+						<span style="font-size: 22px;font-weight: 600;">碎片化学习，更贴合用户习惯</span><br />
+						<span>支持直播、点播、录播、插播，帮用户实现碎片化学习和时间管理</span>
+					</div>
+					<div style="width: 44%;display: inline-block;">
+						<img src="images/finance2.png" style="display: inline-block;"/>
+					</div>
+					
+				</div>
+				<!--三-->
+				<div class="caijing_Content">
+					<div style="width: 49%;display: inline-block;">
+						<img src="images/finance3.png" style="display: inline-block;"/>
+					</div>
+					<div class="caijing_First">
+						<span style="font-size: 22px;font-weight: 600;">简单易用，增长客户转化率</span><br />
+						<span>符合用户心理的界面规划设计，方便快捷的参与方式，有效提升用户
+满意度，轻松将试用客户转化为会员客户</span>
+					</div>
+				</div>
+				<!--四-->
+				<div class="caijing_Content">
+					<div class="caijing_Second">
+						<span style="font-size: 22px;font-weight: 600;">提高产出比，实现利润最大化</span><br />
+						<span>实现分析师一对百、千、万的在线互动培训，降低平台投入成本，完成利润最大化</span>
+					</div>
+					<div style="width: 44%;display: inline-block;">
+						<img src="images/finance4.png" style="display: inline-block;"/>
+					</div>
+					
+				</div>
+				<!--五-->
+				<div class="caijing_Content">
+					<div style="width: 49%;display: inline-block;">
+						<img src="images/finance5.png" style="display: inline-block;"/>
+					</div>
+					<div class="caijing_First">
+						<span style="font-size: 22px;font-weight: 600;">全方位定制平台 增强企业曝光度</span><br />
+						<span>根据用户使用习惯自定义重组产品界面，放入品牌动态和logo信息，增强
+企业曝光度</span>
+					</div>
+				</div>
+				<!--六-->
+				<div class="caijing_Content">
+					<div class="caijing_Second">
+						<span style="font-size: 22px;font-weight: 600;">与社交媒体全面整合，让传播更便捷</span><br />
+						<span>与各大社交媒体、网络全面整合，无缝融合直播点播中的内容，让传播更便捷</span>
+					</div>
+					<div style="width: 44%;display: inline-block;">
+						<img src="images/finance6.png" style="display: inline-block;"/>
+					</div>
+					
+				</div>
+			</div>
+			<!--移动-->
+			<div class="os">
+				<div class="os_one">
+					<p style="font-size: 16px;font-weight: 700;">高品质的产品体验，提高客户满意度</p>
+					<p>全球领先的技术架构，稳定可靠，画质清晰流畅，轻松支持数万人
+同时在线，不卡顿，不掉线，客户使用体验更佳</p>
+					<img src="images/finance1.png" />
+				</div>
+				<hr />
+				<div class="os_one">
+					<p style="font-size: 16px;font-weight: 700;">碎片化学习，更贴合用户习惯</p>
+					<p>支持直播、点播、录播、插播，帮用户实现碎片化学习和时间管理</p>
+					<img src="images/finance2.png" />
+				</div>
+				<hr />
+				<div class="os_one">
+					<p style="font-size: 16px;font-weight: 700;">简单易用，增长客户转化率</p>
+					<p>符合用户心理的界面规划设计，方便快捷的参与方式，有效提升用户
+满意度，轻松将试用客户转化为会员客户</p>
+					<img src="images/finance3.png" />
+				</div>
+				<hr />
+				<div class="os_one">
+					<p style="font-size: 16px;font-weight: 700;">提高产出比，实现利润最大化</p>
+					<p>实现分析师一对百、千、万的在线互动培训，降低平台投入成本，完成利润最大化</p>
+					<img src="images/finance4.png" />
+				</div>
+				<hr />
+				<div class="os_one">
+					<p style="font-size: 16px;font-weight: 700;">全方位定制平台 增强企业曝光度</p>
+					<p>根据用户使用习惯自定义重组产品界面，放入品牌动态和logo信息，增强
+企业曝光度</p>
+					<img src="images/finance5.png" />
+				</div>
+				<hr />
+				<div class="os_one">
+					<p style="font-size: 16px;font-weight: 700;">与社交媒体全面整合，让传播更便捷</p>
+					<p>与各大社交媒体、网络全面整合，无缝融合直播点播中的内容，让传播更便捷</p>
+					<img src="images/finance6.png" />
+				</div>
+			</div>
+				
+			<!--财经行业-->
+			<div class="caijing_cai">
+				<p>和他们一起选用最专业的投资者教育系统</p>
+				<img src="images/yin.jpg" style="width: 80%;"/>
+				<div>
+					<img src="images/shen.png" style="width: 120px;margin: 50px 0px;cursor: pointer;" />
+				</div>
+			</div>
+			<!--底部-->
+			<div style="width: 100%;background-color: #404040;">
+				<div style="width: 80%;margin: 0 auto;overflow: hidden;padding: 30px 0px;">
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									展示互动
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									公司新闻
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									关于我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									荣誉资质
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									联系我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									人才招聘
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									直播秀
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									产品服务
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									教育培训
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									企业直播
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									金融直播室
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									财经培训
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									营销直播
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									联系我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									业务咨询
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									0536-7553333
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									客服热线
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									0536-7553333
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline" style="vertical-align: top;">
+						<img src="images/er.png" />
+					</div>
+				</div>
+				
+			</div>
+			<div style="width: 100%;height: 60px;background: #333333;">
+				<div style="width: 80%;margin: 0 auto;">
+					<div class="triangle_s"></div>
+					<div style="line-height: 60px;font-size: 12px;color: #fff;text-align: center;">
+						&copy;copyright 2008-2017laoyin 版权所有
+					</div>
+				</div>
+			</div>
+			
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="js/jquery-1.11.1.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>

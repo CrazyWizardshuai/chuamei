@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>烙印直播</title>
+		<style type="text/css">
+			* {
+				margin: 0px;
+				padding: 0px;
+			}
+			.triangle_s {
+				width: 0;
+				height: 0;
+				border-left: 17px solid transparent;
+				border-right: 17px solid transparent;
+				border-bottom: 24px solid #333;
+				position: absolute;
+				left: 50%;
+				margin: -24px 0 0 -17px;
+			}
+			.Index_First li {
+				font-weight: bold;
+			}
+			.Index_zhi{
+				font-weight: bold;
+				text-align: center;
+			}
+			.Index_Second{
+				width: 49%;
+				display: inline-block;
+			}
+			a{
+				text-decoration: none !important;
+				color: #000000 !important;
+			}
+			
+			@media screen and (max-width:700px) {
+			  	.Index_SecondOne {
+			    	width: 100% !important;
+				}
+			}
+			@media screen and (max-width:420px) {
+			  	.Index_zhi {
+			    	font-size: 12px;
+				}
+			}
+			.Index_Third li a{
+				color: #FFFFFF !important;
+				
+			}
+			ul li{
+				list-style: none;
+			}
+			.Index_inline{
+				display: inline-block;
+				padding-left: 10%;
+				line-height: 30px;
+			}
+			.jianjie_Content{
+				width: 70%;
+				margin: 0 auto;
+			}
+			.jianjie_First h3{
+				font-weight: 700;
+				color: #1d3559;
+				
+			}
+			.jianjie_First span{
+				line-height: 30px;
+				color: #040404;
+			}
+			.jianjie_Second{
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+			.jianjie_Second h3{
+				font-weight: 700;
+				color: #1d3559;
+			}
+			
+			.jianjie_SecondOne h4{
+				font-weight: 700;
+				line-height: 30px;
+			}
+		</style>
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	</head>
+
+	<body>
+		<div>
+			<!--导航栏-->
+			<div style="width: 80%;margin: 0 auto;">
+				<nav class="navbar navbar-default" role="navigation">
+					<div class="container-fluid">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					        <span class="sr-only">Toggle navigation</span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					        <span class="icon-bar"></span>
+					     </button>
+							<a href="#"><img src="images/logo.png"></a>
+						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav Index_First">
+								<li style="padding-left: 10px;">
+									<a href="#">主页</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">教育直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">法律咨询 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">营销直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">财经直播 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">影视制作 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">社会福利 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">关于我们 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">公司新闻</a>
+										</li>
+										<li>
+											<a href="#">公司简介</a>
+										</li>
+										<li>
+											<a href="#">联系方式</a>
+										</li>
+										<li>
+											<a href="#">人才招聘</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="dropdown-toggle" data-toggle="dropdown">帮助下载 <span class="caret"></span></a>
+									<ul class="dropdown-menu" role="menu">
+										<li>
+											<a href="#">高等教育</a>
+										</li>
+										<li>
+											<a href="#">名师补课</a>
+										</li>
+										<li>
+											<a href="#">企业培训</a>
+										</li>
+										<li>
+											<a href="#">直播课堂</a>
+										</li>
+										<li>
+											<a href="#">智慧教育</a>
+										</li>
+										<li>
+											<a href="#">基础教育</a>
+										</li>
+										<li>
+											<a href="#">应急响应教学</a>
+										</li>
+										<li>
+											<a href="#">掌上家长会</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+					</div>
+					<!-- /.container-fluid -->
+				</nav>
+			</div>
+			<!--大图-->
+			<div>
+				<img src="images/aboutbc.png" style="width: 100%;" />
+			</div>
+			<!--内容-->
+			<div>
+				<!--内容全部-->
+				<div class="jianjie_Content">
+					<!--公司简介-->
+					<div class="jianjie_First">
+						<h3>公司简介</h3>
+						<span> 山东烙印直播影视集团是由山东潍坊市政府招商局引进的科技型公司。是国内专业从事
+							网络视频直播的研发型科技公司。团队技术实力业内领先，自主研发的移动直播设备和
+							移动直播平台，为各行业企业提供了专业的在线活动营销平台，打造了移动互联时代营
+							销的新模式。
+						</span>
+					</div>
+					<!--烙印直播提供-->
+					<div class="jianjie_Second">
+						<h3>烙印直播可以提供</h3>
+						<div>
+							<div class="jianjie_SecondOne">
+								<h4>一、营销平台建设</h4>
+								<span>教育培训企业，生产商贸型企业，服务型企业，金融类，医疗类、电商类、旅游类等直播营销平台建设。</span>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>二、合作开发直播平台</h4>
+								<span>同各类公司企业合作，定制开发行业内专业直播平台，满足各行业需求。</span>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>三、微信直播服务</h4>
+								<span>引领微信直播潮流等直播服务，开展微信直播服务。</span>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>四、公众号的对接，直播</h4>
+								<span>针对微信公众号直播的开发，对接，积累优质粉丝，实现捆绑营销。烙印直播让用户无
+										需下载安装任何软件即可轻松实现一键分享，全球直播，实时互动，和精准营销。 凭借
+										专业的技术和良好的服务，赢得多方客户的认可和口碑，广泛应用于各类活动场景：房
+										产，电商，汽车，微商，时尚，电子，服装，食品，智能家居等生产贸易型企业；各类
+										学校教育，培训机构，职业教育，校外辅导，儿童教育等教育培训直播；婚礼庆典，会
+										议会展营销策划活动，户外，演唱会，体育运动健身，蛋糕，餐饮，工艺品制作，主持
+										人，美容化妆，幼儿园，医疗、旅游政府等服务型企业。
+								</span>
+							</div>
+						</div>
+					</div>
+					<!--直播正在广泛应用-->
+					<div class="jianjie_Second">
+						<h3>直播正在广泛应用</h3>
+						<div>
+							<div class="jianjie_SecondOne">
+								<h4>◎综合行政执法>>></h4>
+								<span>公安交警直播可以将执法过程呈现在群众面前，一线民警全程参与，促进一线民警严格、规范、公正、文明执法，起到促进交警执法
+规范化、有效震慑交通违法行为。对现场执法依据、执法环节、执法流程进行专业解读，同时将在直播过程中与在线观看的网友进行
+交流，及时解答网友提问，增加直播的互动性和知识性。
+执法领域都可以推广这种形式，尤其是在城管执法、环境执法等容易和执法对象产生纠纷的领域。聚焦重点问题，实现直播效果最优化。</span>
+								<img src="images/j1.png" class="img-responsive" style="margin: 0 auto;"/>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>◎教育>>></h4>
+								<p>传统教育的重点是教学内容，无论借助何种工具，都是为了实现教学效果的最优化，采用视频直播也是如此。以校园公开课为例，在
+以往，公开课教室能容纳的师生数量有限，而使用直播的方式，能够让所有对课程有兴趣的学生同步观看，并实时反馈自身的问题和
+意见，老师不仅能接收到教室现场的意见，也能根据网络上反馈的信息了解线上学生的所有问题，有效调动了师生的互动性和积极性。</p>
+								<p>直播这种模式让课堂辐射的范围成倍增加，让优质的教学资源得到了充分共享。同时，在直播过程中，也可利用技术手段，将教学
+过程中的一些抽象的概念具象化，让学生更易理解和吸收知识点。</p>
+								<img src="images/j2.png" class="img-responsive" style="margin: 0 auto;"/>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>◎旅游>>></h4>
+								<span>旅行直播就是生活化、户外化的天然的素材，美食、住宿、交通工具、旅游行程、购物体验、娱乐设施…这样在旅行体系下的食住行游
+									购娱都成为可以被展示和直播的素材，而且不同的素材可以被多次直播和编辑，这就让旅行成为直播的一个可以连续不断并且不会重样
+									的产出内容的辅助手段。
+								</span>
+								<img src="images/j3.png" class="img-responsive" style="margin: 0 auto;"/>
+								
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>◎金融>>></h4>
+								<span>直播时代的出现则无疑是一大突破，视频直播所拥有的直观性和即时互动性，让金融平台和用户之间能够“面对面”地及时交流
+沟通，做到投资心中有数。视频直播针对各行业的企业能够让平台更直观、具体地解答疑问和顾虑，为随后的营销工作和品牌推
+广奠定基础。尤其是各行业专家直播，能够吸引更多的有效用户，发展更多的潜在客户。
+								</span>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>◎酒店>>></h4>
+								<span>面对酒店会议市场的发展趋势和现状，酒店如何进一步拓展自身会议会展业务成为当前急需思考解决的问题，加强服务能力、提高
+设施水平、增大接待能力、提升品牌影响力，这些都是当前酒店常规的做法，如何另辟蹊径的在竞争激烈的酒店会议事业上一马当
+先，成为利益占领的先行者，就需要在服务上进行差异化提升，进行传统会议模式与网络的结合，开展酒店会议会展的网络直播业
+务，既扩展了业务范围，增强了酒店服务能力，还给酒店用户带来了网络展示的应用，通过差异化的服务来带动酒店会议会展的应用。
+								</span>
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>◎美食>>></h4>
+								<span>美食直播宣传又是一种新玩法，为网友们奉上一场场“秀色可餐”的直播节目。直播服务主要包括：新菜品发布、透明后厨、就餐过程
+等，会满足吃货们流口水的欲望。作为一种新型传播形式，直播可能比文字更抓人眼球，比千篇一律的美食菜谱更鲜活真实。尤其是对
+于90后、00后等越来越年轻的吃货，用直播的方式可以拉近与用户的距离。
+								</span>
+								<img src="images/j4.png" class="img-responsive" style="margin: 0 auto;" />
+							</div>
+							<div class="jianjie_SecondOne">
+								<h4>◎娱乐>>></h4>
+								<span>进行娱乐的时候需要能够从中获得非常好的放松，这样才能够为生活带来最好的调节效果。 另外能够更全面地传递商品信息，促进用户
+的有效决策。商家不断提升商品信息呈现能力，帮助用户决策，视频正在成为一种受欢迎的形式。营销策划机构认为，直播让商家可更
+多维度地呈现商品信息。现在通过直播，召集一定数量的潜在消费者一起观看讲解，等于售前服务从“一对一”变成“一对多”，这样
+来看，营销策划机构认为，直播模式反而提高了电商的售前咨询效率。  
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+					
+			<!--底部-->
+			<div style="width: 100%;background-color: #404040;">
+				<div style="width: 80%;margin: 0 auto;overflow: hidden;padding: 30px 0px;">
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									展示互动
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									公司新闻
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									关于我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									荣誉资质
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									联系我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									人才招聘
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									直播秀
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									产品服务
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									教育培训
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									企业直播
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									金融直播室
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									财经培训
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									营销直播
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline">
+						<ul class="Index_Third">
+							<li>
+								<a href="#" style="font-size: 24px;">
+									联系我们
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									业务咨询
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									0536-7553333
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									客服热线
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									0536-7553333
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									&nbsp;
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="Index_inline" style="vertical-align: top;">
+						<img src="images/er.png" />
+					</div>
+				</div>
+				
+			</div>
+			<div style="width: 100%;height: 60px;background: #333333;">
+				<div style="width: 80%;margin: 0 auto;">
+					<div class="triangle_s"></div>
+					<div style="line-height: 60px;font-size: 12px;color: #fff;text-align: center;">
+						&copy;copyright 2008-2017laoyin 版权所有
+					</div>
+				</div>
+			</div>
+			
+			<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+			<script src="js/jquery-1.11.1.js"></script>
+			<!-- Include all compiled plugins (below), or include individual files as needed -->
+			<script src="js/bootstrap.min.js"></script>
+	</body>
+
+</html>
